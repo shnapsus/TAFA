@@ -179,7 +179,7 @@ body{
 .pagewrap{
 	position: relative;
 	min-height: 100%;
-	min-width: 1100px
+	min-width: 900px
 }
 
 /*--- header ---*/
@@ -240,11 +240,15 @@ body{
 .header__nav__ul__li__a.color3{
 	color: #36bbce;
 }
-
+@media screen and (max-width: 1000px){
+	.header__nav__ul__li__a{
+		font-size: 25px;
+	}
+}
 
 .header__info{
 	margin: 0 auto 52px auto;
-	padding: 0 8%;
+	padding: 0 3%;
 }
 .header__info__block{
 	float: left;
